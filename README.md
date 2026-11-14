@@ -8,6 +8,8 @@ Automate an X account in your niche, from the news sources you pick, in your own
 
 It interviews you (your voice, topics, accounts to watch, where your notes live, which tools you use), configures everything, runs dry runs for you to approve, and schedules the jobs.
 
+**Visual guide:** [docs/setup-map.canvas](docs/setup-map.canvas) is a one-page setup map with fill-in note cards. Open the repo folder as a vault in [Obsidian](https://obsidian.md) and click it.
+
 ## What it does
 
 | Job | What happens | Posts automatically? |

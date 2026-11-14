@@ -1,0 +1,604 @@
+{
+	"nodes": [
+		{
+			"id": "d3034670df91e68e",
+			"type": "text",
+			"x": 0,
+			"y": 0,
+			"width": 1460,
+			"height": 300,
+			"text": "# X Autopilot: Setup Map\n\nAutomate an X account in **your niche**, from **the news sources you pick**, in **your own voice**. Your AI agent (Claude Code or Codex) does the setup by asking you questions.\n\n**Read top to bottom.** Orange = get these first. Blue = set it up in order. Green = what happens every day. Purple = the rules it follows. Red = when something looks wrong. Yellow = your notes."
+		},
+		{
+			"id": "256b33d195531fdf",
+			"type": "text",
+			"x": 1540,
+			"y": 0,
+			"width": 700,
+			"height": 300,
+			"text": "## Get the code\n\n### [github.com/coulditbecoley/x-autopilot](https://github.com/coulditbecoley/x-autopilot)\n\nFree and open source (MIT).\n\nCode > **Download ZIP**, then unzip it.",
+			"color": "5"
+		},
+		{
+			"id": "2ea4bf0e3e038f45",
+			"type": "text",
+			"x": 2320,
+			"y": 0,
+			"width": 680,
+			"height": 300,
+			"text": "## What it costs\n\n- **The code:** free\n- **Writing posts:** your Claude Code login, or an AI API key\n- **Reading X:** Apify, small pay per result\n- **Posting live:** depends on the tool you pick\n\nCheck current prices before you schedule it. Drafts mode never posts.",
+			"color": "2"
+		},
+		{
+			"id": "e74b365a88f8c04e",
+			"type": "group",
+			"x": -40,
+			"y": 400,
+			"width": 3080,
+			"height": 470,
+			"label": "PART 1  ·  Get these before you start",
+			"color": "2"
+		},
+		{
+			"id": "a5b6624b166dc27f",
+			"type": "text",
+			"x": 0,
+			"y": 460,
+			"width": 560,
+			"height": 370,
+			"text": "## 1. An AI agent\n\n**Claude Code** or **Codex**, installed and signed in.\n\nThis is your installer. It reads the setup guide and does the work.",
+			"color": "2"
+		},
+		{
+			"id": "a3d9040839694fd0",
+			"type": "text",
+			"x": 620,
+			"y": 460,
+			"width": 560,
+			"height": 370,
+			"text": "## 2. Python\n\nFrom **python.org/downloads**.\n\nVersion 3.9 or newer. Your agent checks this for you before you install anything.",
+			"color": "2"
+		},
+		{
+			"id": "bab77708a14f7261",
+			"type": "text",
+			"x": 1240,
+			"y": 460,
+			"width": 560,
+			"height": 370,
+			"text": "## 3. Apify\n\nThis is how it reads X.\n\nMake an account at **apify.com**, then **Settings > API & Integrations** to create your token.\n\nKeep it private.",
+			"color": "2"
+		},
+		{
+			"id": "671c7b7d4dd25386",
+			"type": "text",
+			"x": 1860,
+			"y": 460,
+			"width": 560,
+			"height": 370,
+			"text": "## 4. Somewhere to write posts\n\nEasiest: your **Claude Code login**, no key needed.\n\nOr an **Anthropic** or **OpenAI** API key.\n\nCodex users: pick OpenAI.",
+			"color": "2"
+		},
+		{
+			"id": "45b0410cd04d16ca",
+			"type": "text",
+			"x": 2480,
+			"y": 460,
+			"width": 520,
+			"height": 370,
+			"text": "## Later, not now\n\nOnly when you go live, pick **one**:\n\n- **X API** (your own developer app)\n- **Zernio**\n- **A webhook** you already built (Zapier, Make, n8n)\n\nYou start in **drafts mode**, so skip this for now."
+		},
+		{
+			"id": "ac9545bdb025975c",
+			"type": "group",
+			"x": -40,
+			"y": 970,
+			"width": 3080,
+			"height": 900,
+			"label": "PART 2  ·  Set it up, in this order",
+			"color": "5"
+		},
+		{
+			"id": "6ace107357928d8a",
+			"type": "text",
+			"x": 0,
+			"y": 1030,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 1\n## Open the folder\n\nOpen the unzipped folder in Claude Code or Codex.\n\nYou should see **SETUP.md** in the file list.",
+			"color": "5"
+		},
+		{
+			"id": "c787cd7ff9ef2e32",
+			"type": "text",
+			"x": 760,
+			"y": 1030,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 2\n## Say one sentence\n\n> Read SETUP.md and set this up for me.\n\nThat's it. The agent takes over.",
+			"color": "5"
+		},
+		{
+			"id": "951912674713b313",
+			"type": "text",
+			"x": 1520,
+			"y": 1030,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 3\n## Answer its questions\n\nOne at a time, each with a default. Say \"default\" to move on.\n\nThe big three are on the right.",
+			"color": "5"
+		},
+		{
+			"id": "9afd4e534cca6d13",
+			"type": "text",
+			"x": 2280,
+			"y": 1030,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 4\n## Add your keys\n\nPaste them into the file called **.env** yourself, not into the chat.\n\nOn Windows, make sure it isn't saved as **.env.txt**.",
+			"color": "5"
+		},
+		{
+			"id": "5ac2302f6c02223b",
+			"type": "text",
+			"x": 2280,
+			"y": 1450,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 5\n## Let it check everything\n\nThe agent runs a self test and a setup check, then **dry runs** of each job.\n\nA dry run shows a post without sending it.",
+			"color": "5"
+		},
+		{
+			"id": "8409220d52872e75",
+			"type": "text",
+			"x": 1520,
+			"y": 1450,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 6\n## Make it sound like you\n\nRead the drafts. Not you? Tell the agent what to change and rerun.\n\nRepeat until you'd post them.",
+			"color": "5"
+		},
+		{
+			"id": "253c535c0540cbe5",
+			"type": "text",
+			"x": 760,
+			"y": 1450,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 7\n## Schedule it\n\nThe agent sets the jobs to run on their own, on Windows, Mac or Linux.\n\nThe computer must be **on and online** at those times.",
+			"color": "5"
+		},
+		{
+			"id": "6f5de05ee0f53868",
+			"type": "text",
+			"x": 0,
+			"y": 1450,
+			"width": 700,
+			"height": 360,
+			"text": "### Step 8\n## Read a week of drafts, then go live\n\nConnect your posting tool, approve **one test post**, and check it landed on the right account.",
+			"color": "5"
+		},
+		{
+			"id": "54e5cdeab3d10895",
+			"type": "group",
+			"x": 3120,
+			"y": 970,
+			"width": 800,
+			"height": 900,
+			"label": "The 3 answers that shape everything",
+			"color": "5"
+		},
+		{
+			"id": "a6439dbb655bf090",
+			"type": "text",
+			"x": 3160,
+			"y": 1030,
+			"width": 720,
+			"height": 250,
+			"text": "## Your topic\n\nYour niche, like gaming, fitness, real estate or AI. Each topic gets a few hashtags people in that niche follow. Posts end with **1 or 2** of them."
+		},
+		{
+			"id": "af7a40326a1c22c6",
+			"type": "text",
+			"x": 3160,
+			"y": 1300,
+			"width": 720,
+			"height": 250,
+			"text": "## Your sources\n\n**8 to 15 X accounts** per topic to watch. Big news accounts beat personal ones. If nothing ever comes up, add bigger accounts."
+		},
+		{
+			"id": "1d5ae4e4544c9f07",
+			"type": "text",
+			"x": 3160,
+			"y": 1570,
+			"width": 720,
+			"height": 250,
+			"text": "## Your voice\n\nPaste **5 to 10 of your own posts** and the agent writes your voice description for you."
+		},
+		{
+			"id": "039a746cf823fae0",
+			"type": "group",
+			"x": -40,
+			"y": 1970,
+			"width": 3080,
+			"height": 760,
+			"label": "PART 3  ·  What happens every day once it's running",
+			"color": "4"
+		},
+		{
+			"id": "27e37bb68a5b1df7",
+			"type": "text",
+			"x": 0,
+			"y": 2030,
+			"width": 470,
+			"height": 260,
+			"text": "## Your sources\n\nThe accounts you picked post as usual.",
+			"color": "4"
+		},
+		{
+			"id": "3a464e5e07153239",
+			"type": "text",
+			"x": 520,
+			"y": 2030,
+			"width": 470,
+			"height": 260,
+			"text": "## Scan\n\nEvery 2 hours in your posting window, it pulls their newest posts.",
+			"color": "4"
+		},
+		{
+			"id": "bcdbcf24b7fdc5d3",
+			"type": "text",
+			"x": 1040,
+			"y": 2030,
+			"width": 470,
+			"height": 260,
+			"text": "## Filter\n\nPlain code keeps original posts that are picking up fast. No AI yet.",
+			"color": "4"
+		},
+		{
+			"id": "4869646de33fe602",
+			"type": "text",
+			"x": 1560,
+			"y": 2030,
+			"width": 470,
+			"height": 260,
+			"text": "## AI decides\n\nIs any of this real news? If yes, it writes **one** post in your voice.",
+			"color": "4"
+		},
+		{
+			"id": "bbfa9f45bec3030b",
+			"type": "text",
+			"x": 2080,
+			"y": 2030,
+			"width": 470,
+			"height": 260,
+			"text": "## Checks\n\nShort, no links, 1 or 2 hashtags, ends on a question, numbers must be in the source.",
+			"color": "4"
+		},
+		{
+			"id": "102c6e01afb90f01",
+			"type": "text",
+			"x": 2600,
+			"y": 2030,
+			"width": 400,
+			"height": 260,
+			"text": "## Post, or nothing\n\nPasses: it posts (or saves a draft).\n\nNo real story: **nothing**. A quiet scan is normal.",
+			"color": "4"
+		},
+		{
+			"id": "a549680d65275397",
+			"type": "text",
+			"x": 0,
+			"y": 2350,
+			"width": 950,
+			"height": 320,
+			"text": "## Every morning: your reply list\n\nUp to **25 big posts** in your niche, each with a reply already drafted and a button that opens X with it filled in.\n\n**You send the ones you like.** It never replies for you.",
+			"color": "4"
+		},
+		{
+			"id": "00b0a4d4781db210",
+			"type": "text",
+			"x": 1030,
+			"y": 2350,
+			"width": 950,
+			"height": 320,
+			"text": "## Optional: your daily post\n\nOnce a day it writes about **what you actually did**, from your notes or git commits. Checked for private names before anything goes out.\n\nA longer version can be drafted for you to post yourself.",
+			"color": "4"
+		},
+		{
+			"id": "ec70a6d41fa70c07",
+			"type": "text",
+			"x": 2060,
+			"y": 2350,
+			"width": 940,
+			"height": 320,
+			"text": "## Your 5 minutes a day\n\n- Send a few replies from the list\n- Answer people who reply to you\n- Glance at the log now and then\n\nThis is the part that actually grows an account.",
+			"color": "4"
+		},
+		{
+			"id": "b63cf41e5251567d",
+			"type": "group",
+			"x": -40,
+			"y": 2830,
+			"width": 1500,
+			"height": 560,
+			"label": "PART 4  ·  The rules it follows",
+			"color": "6"
+		},
+		{
+			"id": "28f21642cbf6a6c8",
+			"type": "text",
+			"x": 0,
+			"y": 2890,
+			"width": 680,
+			"height": 220,
+			"text": "## Drafts first\n\nNothing posts until **you** switch it to live. Drafts land in a file with a one tap Post on X link.",
+			"color": "6"
+		},
+		{
+			"id": "f9053b5a6f89e53e",
+			"type": "text",
+			"x": 720,
+			"y": 2890,
+			"width": 680,
+			"height": 220,
+			"text": "## Replies stay manual\n\nX requires its written approval for AI reply bots. So it drafts, you send.",
+			"color": "6"
+		},
+		{
+			"id": "5a88c7bb201ab1af",
+			"type": "text",
+			"x": 0,
+			"y": 3140,
+			"width": 680,
+			"height": 220,
+			"text": "## Privacy check\n\nYour daily post is checked by code for names you've blocked, links and file paths. Fails? It skips the day. Still read your first week.",
+			"color": "6"
+		},
+		{
+			"id": "66301a52169106e9",
+			"type": "text",
+			"x": 720,
+			"y": 3140,
+			"width": 680,
+			"height": 220,
+			"text": "## Silence over filler\n\nNo real story means no post. It never makes things up to fill a slot.",
+			"color": "6"
+		},
+		{
+			"id": "7c451b97a5c04a08",
+			"type": "group",
+			"x": 1540,
+			"y": 2830,
+			"width": 1500,
+			"height": 560,
+			"label": "PART 5  ·  When something looks wrong",
+			"color": "1"
+		},
+		{
+			"id": "2c9f653c76fa7f88",
+			"type": "text",
+			"x": 1580,
+			"y": 2890,
+			"width": 1420,
+			"height": 460,
+			"text": "Every run writes a line to **state/run.log**. Read that first, or ask your agent to.\n\n| You see | What it means | What to do |\n|---|---|---|\n| **QUIET** | No story worth posting | Nothing. That's normal. |\n| **SKIP no candidates** | Your sources are too quiet | Add bigger accounts, or ask the agent to lower the bar |\n| **FAIL** with 401 or 403 | A key is wrong or expired | Make a new key and paste it into .env |\n| No new lines at all | The schedule isn't running | Ask the agent to check the scheduled jobs |\n| Posts sound off | Voice or sources need work | Tell the agent what to change |\n\n**A gap in your feed can be a dead key, not a quiet week.** Want it to stop? Ask your agent to turn off the scheduled jobs.",
+			"color": "1"
+		},
+		{
+			"id": "89fc6cc9c56119c4",
+			"type": "group",
+			"x": -40,
+			"y": 3490,
+			"width": 3080,
+			"height": 520,
+			"label": "YOUR NOTES  ·  fill these in as you go",
+			"color": "3"
+		},
+		{
+			"id": "31ec53ccc74dacb3",
+			"type": "text",
+			"x": 0,
+			"y": 3550,
+			"width": 700,
+			"height": 420,
+			"text": "## My setup\n\n- [ ] Agent: Claude Code / Codex\n- [ ] Python checked\n- [ ] Apify token saved in .env\n- [ ] Writing posts with: \n- [ ] Posting with (later): ",
+			"color": "3"
+		},
+		{
+			"id": "7f0e9a9d5c5610fb",
+			"type": "text",
+			"x": 760,
+			"y": 3550,
+			"width": 700,
+			"height": 420,
+			"text": "## My niche\n\nTopic(s):\n\nHashtags:\n\nPosts a day (max):\n\nPosting hours:",
+			"color": "3"
+		},
+		{
+			"id": "077d5fccd243391d",
+			"type": "text",
+			"x": 1520,
+			"y": 3550,
+			"width": 700,
+			"height": 420,
+			"text": "## My sources\n\n1.\n2.\n3.\n4.\n5.\n6.\n7.\n8.",
+			"color": "3"
+		},
+		{
+			"id": "ca2170119a82eef2",
+			"type": "text",
+			"x": 2280,
+			"y": 3550,
+			"width": 700,
+			"height": 420,
+			"text": "## My voice\n\nIn a few words:\n\nThings I never post about:\n\nNames to keep private:",
+			"color": "3"
+		}
+	],
+	"edges": [
+		{
+			"id": "d5622b7a3fc5a727",
+			"fromNode": "a5b6624b166dc27f",
+			"fromSide": "right",
+			"toNode": "a3d9040839694fd0",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "2"
+		},
+		{
+			"id": "672908f8dd7d86c6",
+			"fromNode": "a3d9040839694fd0",
+			"fromSide": "right",
+			"toNode": "bab77708a14f7261",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "2"
+		},
+		{
+			"id": "8d9f85b8ef357832",
+			"fromNode": "bab77708a14f7261",
+			"fromSide": "right",
+			"toNode": "671c7b7d4dd25386",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "2"
+		},
+		{
+			"id": "b492032ccfe67f62",
+			"fromNode": "671c7b7d4dd25386",
+			"fromSide": "right",
+			"toNode": "45b0410cd04d16ca",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "2"
+		},
+		{
+			"id": "38b0d2b938f6d70c",
+			"fromNode": "6ace107357928d8a",
+			"fromSide": "right",
+			"toNode": "c787cd7ff9ef2e32",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "01d5c14653e14c93",
+			"fromNode": "c787cd7ff9ef2e32",
+			"fromSide": "right",
+			"toNode": "951912674713b313",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "39c74a05fa6807f4",
+			"fromNode": "951912674713b313",
+			"fromSide": "right",
+			"toNode": "9afd4e534cca6d13",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "2f4f3562ad3b12e0",
+			"fromNode": "9afd4e534cca6d13",
+			"fromSide": "bottom",
+			"toNode": "5ac2302f6c02223b",
+			"toSide": "top",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "72e270297b52eb48",
+			"fromNode": "5ac2302f6c02223b",
+			"fromSide": "left",
+			"toNode": "8409220d52872e75",
+			"toSide": "right",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "c6463316e3b40688",
+			"fromNode": "8409220d52872e75",
+			"fromSide": "left",
+			"toNode": "253c535c0540cbe5",
+			"toSide": "right",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "681f4e10d5605b73",
+			"fromNode": "253c535c0540cbe5",
+			"fromSide": "left",
+			"toNode": "6f5de05ee0f53868",
+			"toSide": "right",
+			"toEnd": "arrow",
+			"color": "5"
+		},
+		{
+			"id": "67cac5637c9fb79a",
+			"fromNode": "951912674713b313",
+			"fromSide": "top",
+			"toNode": "a6439dbb655bf090",
+			"toSide": "top",
+			"toEnd": "arrow",
+			"label": "during step 3",
+			"color": "5"
+		},
+		{
+			"id": "032daccf288714c1",
+			"fromNode": "27e37bb68a5b1df7",
+			"fromSide": "right",
+			"toNode": "3a464e5e07153239",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		},
+		{
+			"id": "a08059891646d687",
+			"fromNode": "3a464e5e07153239",
+			"fromSide": "right",
+			"toNode": "bcdbcf24b7fdc5d3",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		},
+		{
+			"id": "4685fa94ed823af5",
+			"fromNode": "bcdbcf24b7fdc5d3",
+			"fromSide": "right",
+			"toNode": "4869646de33fe602",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		},
+		{
+			"id": "284a151f6a7545f3",
+			"fromNode": "4869646de33fe602",
+			"fromSide": "right",
+			"toNode": "bbfa9f45bec3030b",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		},
+		{
+			"id": "7eb068313d41513e",
+			"fromNode": "bbfa9f45bec3030b",
+			"fromSide": "right",
+			"toNode": "102c6e01afb90f01",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		},
+		{
+			"id": "208be8755a9bc8b1",
+			"fromNode": "a549680d65275397",
+			"fromSide": "right",
+			"toNode": "ec70a6d41fa70c07",
+			"toSide": "left",
+			"toEnd": "arrow",
+			"color": "4"
+		}
+	]
+}
