@@ -1,0 +1,8 @@
+.env
+config.json
+config.*.json
+!config.example.json
+state/
+output/
+__pycache__/
+*.pyc

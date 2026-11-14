@@ -1,0 +1,89 @@
+{
+  "persona": {
+    "name": "Your Name",
+    "handle": "yourhandle",
+    "about": "an AI-focused builder who ships software with Claude Code and Codex",
+    "voice": "plain words, specific numbers, first person, a clear opinion, no hype"
+  },
+
+  "llm": { "provider": "anthropic", "model": "claude-opus-5-5" },
+
+  "publisher": { "type": "drafts" },
+
+  "posting_hours": [8, 21],
+
+  "paths": { "state_dir": "state", "output_dir": "output" },
+
+  "news": {
+    "enabled": true,
+    "max_posts_per_day": 3,
+    "min_engagement": 50,
+    "per_sector": 5,
+    "first_lookback_hours": 14,
+    "max_items": 300,
+    "sectors": {
+      "ai": { "tags": ["#AI", "#AIAgents", "#LLM", "#ClaudeCode", "#OpenAI", "#DevTools", "#BuildInPublic"], "fallback_tag": "#AI" },
+      "crypto": { "tags": ["#Bitcoin", "#Crypto", "#Ethereum", "#DeFi", "#CryptoNews"], "fallback_tag": "#Crypto" },
+      "webdev": { "tags": ["#WebDev", "#NextJS", "#JavaScript", "#Frontend", "#DevCommunity"], "fallback_tag": "#WebDev" }
+    }
+  },
+
+  "sources": [
+    { "handle": "OpenAI", "sector": "ai" },
+    { "handle": "AnthropicAI", "sector": "ai" },
+    { "handle": "GoogleDeepMind", "sector": "ai" },
+    { "handle": "sama", "sector": "ai" },
+    { "handle": "karpathy", "sector": "ai" },
+    { "handle": "rowancheung", "sector": "ai" },
+    { "handle": "TheRundownAI", "sector": "ai" },
+    { "handle": "swyx", "sector": "ai" },
+    { "handle": "simonw", "sector": "ai" },
+    { "handle": "MistralAI", "sector": "ai" },
+    { "handle": "WatcherGuru", "sector": "crypto" },
+    { "handle": "Cointelegraph", "sector": "crypto" },
+    { "handle": "CoinDesk", "sector": "crypto" },
+    { "handle": "tier10k", "sector": "crypto" },
+    { "handle": "BitcoinMagazine", "sector": "crypto" },
+    { "handle": "lookonchain", "sector": "crypto" },
+    { "handle": "VitalikButerin", "sector": "crypto" },
+    { "handle": "saylor", "sector": "crypto" },
+    { "handle": "vercel", "sector": "webdev" },
+    { "handle": "rauchg", "sector": "webdev" },
+    { "handle": "nextjs", "sector": "webdev" },
+    { "handle": "dan_abramov", "sector": "webdev" },
+    { "handle": "addyosmani", "sector": "webdev" },
+    { "handle": "wesbos", "sector": "webdev" },
+    { "handle": "t3dotgg", "sector": "webdev" },
+    { "handle": "fireship_dev", "sector": "webdev" },
+    { "handle": "ChromiumDev", "sector": "webdev" }
+  ],
+
+  "replies": {
+    "enabled": true,
+    "max": 25,
+    "per_account": 2,
+    "min_engagement": 100,
+    "max_items": 1500,
+    "sector_caps": { "crypto": 5 }
+  },
+
+  "build_post": {
+    "enabled": false,
+    "notes": {
+      "days": 3,
+      "file_pattern": "",
+      "sections": [],
+      "git_repos": []
+    },
+    "allowed_names": ["Claude Code", "Claude", "Codex", "Anthropic", "OpenAI", "GitHub", "Vercel"],
+    "deny_terms": [],
+    "deny_from_folders": [],
+    "common_folder_words": ["projects", "code", "scratch", "tmp", "test", "notes", "marketing", "youtube"],
+    "extra_rules": "",
+    "tags": ["#BuildInPublic", "#AI", "#AIAgents", "#ClaudeCode", "#Codex", "#DevTools", "#IndieHackers"]
+  },
+
+  "humanizer": { "enabled": true, "skill_file": "" },
+
+  "scraper": { "apify_actor": "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest" }
+}
