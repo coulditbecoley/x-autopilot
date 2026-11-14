@@ -1,27 +1,14 @@
 # Playbook: why every rule is there
 
-This system ran on [@coulditbecoley](https://x.com/coulditbecoley) from July to November 2026, built and maintained by Claude Code, with Codex auditing the work. Every rule below was either measured on that account or adopted from published research, and each one is labelled so you can tell which.
+This system was built by Claude Code, with Codex auditing the work, and ran on a real account before it was made general. Every rule below was either learned the hard way on that account or adopted from published research, and each one is labelled so you can tell which.
 
-## What the numbers did
+## 1. Generic AI posts don't work (learned)
 
-Measured on the account, monthly:
+The first version wrote posts from a topic list. They were well written and almost nobody read them. A model writing "insights" from a topic list produces what every other account already posts. That's why this repo has no "generate a post about topic X" job. Every post starts from something real: a news event, or your own work log.
 
-| Month | What was running | Posts | Median impressions | Likes | Replies |
-|---|---|---|---|---|---|
-| July | AI-generated posts from a topic list, 3 a day | 54 | 17.5 | 10 | 5 |
-| August | + ranking-code rules, hashtags, image cards, news lane | 67 | 55.5 | 98 | 22 |
-| September | news lane only | 62 | 55 | 99 | 25 |
-| October | news + personal build post + reply queue | 99 | 67 | 466 | 76 |
+## 2. News, and silence when there is none (learned)
 
-Nearly 4x the median, with far more conversation. Still a small account: no single change can be proven to have caused it, since post counts and mix changed every month. Treat these as one account's results, not a promise.
-
-## 1. Generic AI posts don't work (measured)
-
-July's posts were well written and nobody read them: about 6% of followers saw a typical post. A model writing "insights" from a topic list produces what every other account already posts. That's why this repo has no "generate a post about topic X" job. Every post starts from something real: a news event, or your own work log.
-
-## 2. News, and silence when there is none (measured)
-
-News posts had the highest ceiling on the account (best: 723 impressions, a Bitcoin price story). The radar posts at most one story per scan and the prompt says out loud that silence costs nothing. Quiet days post nothing, by design. An uncertain story is a no: the next scan can take it once it's clearer.
+Real news is what people react to. The radar posts at most one story per scan and the prompt says out loud that silence costs nothing. Quiet days post nothing, by design. An uncertain story is a no: the next scan can take it once it's clearer.
 
 ## 3. Write for the reply and the forward, not the like (adopted)
 
@@ -58,7 +45,7 @@ The build post reads your own notes, which are full of client names and private 
 
 Every draft gets one rewrite pass to strip AI tells. If the rewrite breaks any check, the original gated draft is used. The pass makes posts better or does nothing.
 
-## 9. Replies are where the reach is, and they stay manual (measured and policy)
+## 9. Replies are where the reach is, and they stay manual (learned and policy)
 
 Replying, and replying back to people who reply to you, carried some of the heaviest weights in the reported ranking code, and a small account's replies on big posts reach that post's audience. X requires prior written approval for automated replies, and one of the author's other accounts was suspended for automation. So the reply job drafts and you send. The queue is the most valuable output here and the one people skip most often.
 

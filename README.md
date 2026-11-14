@@ -1,6 +1,6 @@
 # x-autopilot
 
-Automate an X account without it sounding like a bot. Built by Claude Code for [@coulditbecoley](https://x.com/coulditbecoley), where it took the median post from 17.5 to 67 impressions and monthly likes from 10 to 466 (July vs October 2026, details in [docs/PLAYBOOK.md](docs/PLAYBOOK.md)).
+Automate an X account in your niche, from the news sources you pick, in your own voice, without it sounding like a bot. Built by Claude Code for [@coulditbecoley](https://x.com/coulditbecoley) and made general so anyone can run it. Why each rule exists: [docs/PLAYBOOK.md](docs/PLAYBOOK.md).
 
 **Easiest setup: give this repo to your AI coding agent.** Clone it, open Claude Code or Codex in the folder, and say:
 
